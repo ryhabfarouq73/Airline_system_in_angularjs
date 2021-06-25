@@ -1,0 +1,44 @@
+.logoimg {
+  width: 3em;
+  height: 3em;
+  margin-left: 1em;
+}
+.navv {
+  background-color: white;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+  border: 1px solid #005cbf4d;
+  box-shadow: 1px 1px 0px 1px #201e1e2e;
+}
+.navv a:hover {
+  color: #3086cd;
+}
+.nav-link {
+  margin: 0 0.2em;
+  margin-left: 30%;
+}
+.logoheader{
+  color: #AAD0FD;
+}
+.bluefooter {
+  background-color: #6490b5;
+  height: 12px;
+}
+.grayfooter {
+  background-color: #4f4d53;
+  height: 320px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #6490b5;
+}
+h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+.footerimg {
+  width: 7%;
+  height: 7%;
+}

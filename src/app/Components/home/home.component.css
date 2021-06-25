@@ -1,0 +1,21 @@
+h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #6490b5;
+}
+h1 {
+  color: white;
+}
+h3 {
+  color: #6490b5;
+}
+.servicesbg {
+  background-image: url("pexels-alex-azabache-4007309.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.servicesOpacity {
+  background-color: rgba(52, 58, 64, 0.7);
+  background-size: 100% 100%;
+}

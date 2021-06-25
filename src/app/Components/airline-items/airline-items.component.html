@@ -1,0 +1,46 @@
+<!-- AirLines Design -->
+<div class="container airlines">
+  <div class="row shadow bg-body rounded">
+    <div class="col-lg-3 col-sm-12 mt-5 mb-1"></div>
+    <div class="col-lg-1 col-sm-2 mt-5 mb-1">
+      <img
+        src="{{oneAirline.logoURL}}"
+        class="w-50 h50 img-responsive"
+      />
+    </div>
+    <div class="col-lg-2 col-sm-12 mt-5 mb-1">
+      <h5>{{ oneAirline.name }}</h5>
+    </div>
+    <div class="col-lg-4 col-sm-12 mt-5 mb-4">
+      <button class="btn btn-outline-primary" (click)="HandleClick()">
+        {{ readmore ? "Read More" : "Read Less" }}
+      </button>
+      <!-- Popup Part -->
+      <ng-container *ngIf="visible">
+        <div class="popup px-5 col-lg-4 col-sm-12">
+          <div class="row">
+            <div class="col-3 mt-5">
+              <img
+                src="{{oneAirline.logoURL}}"
+                class="w-50 h-50"
+              />
+            </div>
+            <div class="col-3 mt-5 mb-2">
+              {{ oneAirline.name }}
+            </div>
+          </div>
+
+          <div class="col-3 mt-5 mb-1">
+            <h5>Website</h5>
+            {{ oneAirline.site }}
+          </div>
+
+          <div class="col-3 mt-5 mb-1">
+            <h5>PhoneNumber</h5>
+            {{ oneAirline.phone }}
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>
